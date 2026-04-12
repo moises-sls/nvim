@@ -2,24 +2,20 @@ return {
 
     ------------------------- Comment
     {
-        'numToStr/Comment.nvim',
-        opts = {},
-
+        "nvim-mini/mini.comment",
+        version = false,
         config = function()
-            require('Comment').setup({})
+            require("mini.comment").setup({})
         end,
-
     },
 
     ------------------------- AutoPairs
 
     {
 
-        'windwp/nvim-autopairs',
+        "windwp/nvim-autopairs",
         event = "InsertEnter",
-        config = true
-
-
+        config = true,
     },
 
     ------------------------- Surround
