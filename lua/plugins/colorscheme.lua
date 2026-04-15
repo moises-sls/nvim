@@ -48,8 +48,10 @@ return {
 
                 highlights = {
                     CursorLine = { bg = "#0f0f0f" },
-                    CursorLineNr = { fg = "#FFFF00", bg = "#0f0f0f" },
-                    LineNrAbove = { fg = "#AAAA00" },
+                    -- CursorLineNr = { fg = "#FFFF00", bg = "#0f0f0f" },
+                    -- LineNrAbove = { fg = "#AAAA00" },
+                    CursorLineNr = { fg = "#00b3ff", bg = "#0f0f0f" },
+                    LineNrAbove = { fg = "#006f9e" },
                     LineNrBellow = { fg = "#ababab" },
                     -- String = { fg = "#9cc99b" },
                     Search = { fg = "#b0b0b0", bg = "#000000" },
